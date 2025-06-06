@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = 'http://localhost:9500/'
+API_URL = 'http://0.0.0.0:9500'
 
 if st.sidebar.button("Check api health"):
     try:

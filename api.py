@@ -74,3 +74,7 @@ def health_check():
     except Exception as e:
         logger.exception("Health check failed")
         return {"status": "error", "message": "Health error", "detail": str(e)}
+    
+@app.get("/")
+def read_root():
+    return {"message": "Hello from FastAPI and Docker"}

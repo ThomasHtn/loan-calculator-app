@@ -20,6 +20,22 @@ macOS/Linux :
 * Install dependencies : `pip install -r requirements.txt`
 * Alternatively, you can install the libraries yourself by reading requierements.txt file
 
+### Structure : 
+```
+.
+├── api.py
+├── api_test.py
+├── app.py
+├── data.csv
+├── logs.txt
+├── model.pkl
+├── notebook.ipynb
+├── preprocessor.pkl
+├── README.md
+├── requirements.txt
+└── train_model_exemple.py
+```
+
 ## Start streamlit (front)
 `streamlit run app.py`
 
