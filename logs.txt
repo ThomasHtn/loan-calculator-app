@@ -1,0 +1,16 @@
+2025-06-06 19:36:53.970 | ERROR    | api:health_check:53 - Health check failed: local variable 'e' referenced before assignment
+2025-06-06 19:37:27.033 | SUCCESS  | api:health_check:51 - Health check success
+2025-06-06 19:37:27.038 | SUCCESS  | api:health_check:51 - Health check success
+2025-06-06 19:43:19.834 | INFO     | api:predict:35 - Prediction request | Input: {'age': 30.0, 'taille': 170.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'aucun', 'region': 'Île-de-France', 'smoker': 'oui', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 3000.0} | Prediction: [13631.314]
+2025-06-06 19:43:22.662 | INFO     | api:predict:35 - Prediction request | Input: {'age': 30.0, 'taille': 170.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'aucun', 'region': 'Île-de-France', 'smoker': 'oui', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 3000.0} | Prediction: [13631.314]
+2025-06-06 19:44:14.469 | INFO     | api:predict:35 - Prediction request | Input: {'age': 30.0, 'taille': 170.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'aucun', 'region': 'Île-de-France', 'smoker': 'oui', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 3000.0} | Prediction: [13631.314]
+2025-06-06 19:45:47.919 | INFO     | api:predict:39 - Prediction request | Input: {'age': 30.0, 'taille': 170.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'aucun', 'region': 'Île-de-France', 'smoker': 'oui', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 3000.0} | Prediction: [13631.314]
+2025-06-06 19:45:49.879 | SUCCESS  | api:health_check:62 - Health check success
+2025-06-06 19:56:16.817 | INFO     | api:health_check:52 - Route : '/health' (GET) has been called.
+2025-06-06 19:56:16.822 | SUCCESS  | api:health_check:71 - Health check success
+2025-06-06 19:56:18.684 | INFO     | api:predict:32 - Route : '/predict' (POST) has been called.
+2025-06-06 19:56:18.773 | INFO     | api:predict:43 - Prediction request | Input: {'age': 30.0, 'taille': 170.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'aucun', 'region': 'Île-de-France', 'smoker': 'oui', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 3000.0} | Prediction: [13631.314]
+2025-06-06 20:09:44.707 | INFO     | api:health_check:52 - Route : '/health' (GET) has been called.
+2025-06-06 20:09:44.712 | SUCCESS  | api:health_check:71 - Health check success
+2025-06-06 20:09:44.726 | INFO     | api:predict:32 - Route : '/predict' (POST) has been called.
+2025-06-06 20:09:44.811 | INFO     | api:predict:43 - Prediction request | Input: {'age': 35.0, 'taille': 175.0, 'poids': 70.0, 'sexe': 'H', 'sport_licence': 'oui', 'niveau_etude': 'bac+2', 'region': 'Occitanie', 'smoker': 'non', 'nationalité_francaise': 'oui', 'revenu_estime_mois': 2500.0} | Prediction: [21434.617]
