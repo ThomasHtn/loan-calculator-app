@@ -1,18 +1,28 @@
-# Setup project "LOAN AMOUNT PREDICTION"
+# Description
+The aim of this project is to use a trained model to predict the amount of a loan based on parameters supplied by the user.
 
-## Virtual environment :
+## Virtual environment
+
 Linux :
-* `python3 -m venv .venv`
+```bash
+python3 -m venv .venv
+```
 
 MacOS-Windows
-* `python -m venv .venv`
+```bash
+python -m venv .venv
+```
 
 ## Activate Virtual environment :
 Windows : 
-* `.venv\Scripts\activate`
-  
+```bash
+.venv\Scripts\activate
+```
+
 macOS/Linux : 
-* `source .venv/bin/activate`
+```bash
+source .venv/bin/activate
+```
 
 ## Dependencies :
 
@@ -37,16 +47,28 @@ macOS/Linux :
 ```
 
 ## Start streamlit (front)
-`streamlit run app.py`
-
+```batch 
+streamlit run app.py
+```
 
 ## Start fastAPI (back)
-`uvicorn api:app --host 127.0.0.1 --port 9500 --reload`
+```batch 
+uvicorn api:app --host 127.0.0.1 --port 9500 --reload
+```
 
 [Documentation de l'api](http://127.0.0.1:9500/docs)
 
 ## Generate and Train a model from csv
- `python3 train_model_exemple.py`
+```batch 
+python3 train_model_exemple.py
+```
 
 ## Execute test
-`pytest api_test.py`
+```batch 
+pytest api_test.py
+```
+
+## Run project with docker
+```batch
+docker compose up --build
+```
